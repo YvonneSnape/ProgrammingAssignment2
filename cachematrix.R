@@ -3,7 +3,11 @@
 
 ## Write a short comment describing this function
 
+<<<<<<< HEAD
 makeCacheMatrix <- function(x = matrix())  {
+=======
+makeCacheMatrix <- function(x = matrix()) {
+>>>>>>> FETCH_HEAD
   inverse <- null      ## initially assigning 'null' to nverse
   set_matrix <- function(y){
     x<<-y          ## setting the matrix 'x'
@@ -31,4 +35,8 @@ cacheSolve <- function(x, ...) {
   inverse <- solve(data, ...)   ## using solve() to compute inverse
   x$set_inverse(inverse)        ## to cache the inverse
   inverse                       ## returning the inverese
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> FETCH_HEAD
